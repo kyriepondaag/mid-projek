@@ -1,12 +1,11 @@
 import "../assets/style.css"
 import Nav from "../molekul/Nav";
+import Biodata from "../molekul/Biodata";
 export default function Homepage() {
     return(
 <div>
   <Nav/>
-  <div id="biodata">
-    <h1>Biodata</h1>
-  </div>
+  <Biodata/>
   <div className="content">
     <table>
       <tbody><tr> 
