@@ -1,19 +1,9 @@
 import "../assets/style.css"
+import Nav from "../molekul/Nav";
 export default function Homepage() {
     return(
 <div>
-<div>
-  <nav>
-    <div className="logo">
-      <img src="./11zon_cropped.png" alt="foto" />
-    </div>
-    <ul>
-      <li><a href="#biodata">Biodata</a></li>
-      <li><a href="#riwayatPendidikan">Riwayat Pendidikan</a></li>
-      <li><a href="#riwayatPekerjaan">Riwayat Pekerjaan</a></li>
-      <li><a href="#contact">Contact Person</a></li>
-    </ul>
-  </nav>
+  <Nav/>
   <div id="biodata">
     <h1>Biodata</h1>
   </div>
@@ -128,8 +118,6 @@ export default function Homepage() {
     <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt="ig" /><a href="https://www.instagram.com/christian_haerani/">: christian_haerani</a>
     <img className="perbesar" src="https://www.bambucoworking.com/wp-content/uploads/2017/04/facebook-logo-png-2335.png" alt="fb" /> <a href="https://m.facebook.com/christian.haerani">: Christian Haerani</a> 
   </footer>
-</div>
-
 </div>
     )
 }
