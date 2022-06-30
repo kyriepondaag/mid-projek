@@ -1,14 +1,24 @@
+import React, {useState, useEffect} from "react";
+import axios from "axios";
+
 export default function Nav (){
+  const [features, setFeatures]= useState([])
+  useEffect(()=>{
+    axios.get("http://localhost:3004/navigasi").then(res=>setFeatures(res.data))
+  }, [])
     return(
     <nav>
     <div className="logo">
       <img src="./11zon_cropped.png" alt="foto" />
     </div>
     <ul>
-      <li><a href="#biodata">Biodata</a></li>
-      <li><a href="#riwayatPendidikan">Riwayat Pendidikan</a></li>
-      <li><a href="#riwayatPekerjaan">Riwayat Pekerjaan</a></li>
-      <li><a href="#contact">Contact Person</a></li>
+      {
+        features.map(item=>{
+          return(
+            <><li><a href={`${item.id}`}>{`${item.title}`}</a></li></>
+        )
+        })
+      }
     </ul>
     </nav>
     )
