@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-
+//ambil data dari json local server
 export default function Nav (){
   const [features, setFeatures]= useState([])
   useEffect(()=>{
