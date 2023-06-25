@@ -4,11 +4,11 @@ export default function BiodataContent() {
     <table>
       <tbody><tr> 
           <td> Nama</td>
-          <td>: CHRISTIAN SOLAFIDE HAERANI</td>
+          <td>: KYRIE ELEISON PONDAAG</td>
         </tr>
         <tr>
           <td> NIM</td>
-          <td>: 105022010008</td>  
+          <td>: 105012110275</td>  
         </tr>
         <tr> 
           <td> Status</td>
@@ -16,7 +16,7 @@ export default function BiodataContent() {
         </tr>
         <tr> 
           <td> Tempat, Tanggal Lahir</td>
-          <td>: Jakarta, 17 Januari 2002</td>
+          <td>: Tondano, 23 Desember 2003</td>
         </tr>
         <tr> 
           <td> Agama</td>
@@ -28,27 +28,27 @@ export default function BiodataContent() {
         </tr>
         <tr> 
           <td> Alamat</td>
-          <td>: Bitung Tengah</td>
+          <td>: Tondano utara</td>
         </tr>
         <tr> 
           <td> Hobby</td>
-          <td>: Tenis Meja</td>
+          <td>: Volly Ball</td>
         </tr>
         <tr> 
           <td> Golongan Darah</td>
-          <td>: A</td>
+          <td>: O</td>
         </tr>
         <tr> 
           <td> Email</td>
-          <td>: haeranic007@gmail.com</td>
+          <td>: kyriepondaag21@gmail.com</td>
         </tr>
         <tr> 
           <td> Fakultas/Jurusan</td>
-          <td>: Fik/informatika</td>
+          <td>: Fik/informasi</td>
         </tr>
         <tr className="hide">
           <td> Tempat, Tanggal Lahir</td>
-          <td>: Menjabat sebagai MD di PT.Indomarco Prismatama</td>
+          <td>: Menjabat sebagai Osis di SMA 3 Tondano</td>
         </tr>
       </tbody></table>
   </div>

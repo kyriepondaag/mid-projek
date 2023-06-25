@@ -3,28 +3,28 @@ export default function RiwayatPendidikanContent() {
         <div className="content">
     <table>
       <tbody><tr>
-          <td>2006-2007</td>
-          <td>: Tk GMIM Nasaret Bitung</td>
+          <td>2008-2009</td>
+          <td>: Tk ......</td>
         </tr>
         <tr>
-          <td>2007-20013</td>
-          <td>: SD Katolik 3 DonBosco Bitung</td>
+          <td>2009-2015</td>
+          <td>: SD Negeri impres Tondano</td>
         </tr>
         <tr>
-          <td>20013-20016</td>
-          <td>: SMP Kristen Bitung</td>
+          <td>2016-2018</td>
+          <td>: SMP Negeri 4 Tondano</td>
         </tr>
         <tr>
-          <td>20016-20019</td>
-          <td>: SMA Katolik DonBosco Bitung</td>
+          <td>2019-2021</td>
+          <td>: SMA 3 Tondano</td>
         </tr>
         <tr>
-          <td>2020-sekarang</td>
+          <td>2021-sekarang</td>
           <td>: Perguruan Tinggi Universitas Klabat</td>
         </tr>
         <tr className="hide">
           <td> Tempat, Tanggal Lahir</td>
-          <td>: Menjabat sebagai MD di PT.Indomarco Prismatama</td>
+          <td>: Menjabat sebagai osis di SMA 3 Tondano</td>
         </tr>
       </tbody></table>
   </div>
